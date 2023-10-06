@@ -4,6 +4,9 @@ const validateInput = (el) => {
     if(el.value === ""){
         resultsContainer.innerHTML = "<p>Type something in the above search input</p>"
     }else{
+
+console.log(".........")
+      
         generateResults(el.value, el)
     }
 }
